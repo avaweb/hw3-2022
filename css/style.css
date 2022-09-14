@@ -34,13 +34,13 @@ img {
     border-style: dashed;
 }
 
-div {
+/* div {
     min-height: 125px;
     padding: 20px;
     border-style: solid;
     border-color: #ffffff;
     border-width: 3px;
-}
+} */
 
 .intro {
     border-radius: 15px;
@@ -93,9 +93,20 @@ div {
     border-top: 2px;
 }
 
+div {
+    min-height: 125px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+
 footer {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
+    border: 5px;
+    border-style: solid;
+    border-color: white;
 }
 
 footer p {
