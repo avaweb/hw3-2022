@@ -34,13 +34,13 @@ img {
     border-style: dashed;
 }
 
-div {
+/* div {
     min-height: 125px;
     padding: 20px;
     border-style: solid;
     border-color: #ffffff;
     border-width: 3px;
-}
+} */
 
 .intro {
     border-radius: 15px;
@@ -49,7 +49,7 @@ div {
 
 }
 
-.red div {
+.red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
@@ -57,7 +57,7 @@ div {
     border-left: 5px;
 }
 
-.blue div {
+.blue {
     background-color: #0000ff;
     text-align: right;
     margin-left: 50px;
@@ -85,12 +85,20 @@ div {
     color: #707070;
 }
 
-.green div {
+.green {
     background-color: #00d800;
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
 }
 
 footer {
